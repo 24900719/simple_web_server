@@ -20,7 +20,8 @@ Serving the HTML pages.
 ## Step 5:
 Testing the webserver.
 
-# PROGRAM:from http.server import HTTPServer,BaseHTTPRequestHandler
+# PROGRAM:
+from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
 <html lang="en">
